@@ -1,5 +1,7 @@
 <?php
 
+use App\Helper\Helper;
+
 return [
 
     /*
@@ -67,7 +69,9 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Jakarta',
+    'locale' => 'id',
+    'faker_locale' => 'id_ID',
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +84,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +97,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+
 
     /*
     |--------------------------------------------------------------------------
@@ -106,7 +110,6 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
 
     /*
     |--------------------------------------------------------------------------
@@ -226,6 +229,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Helper' => Helper::class,
 
     ],
 
