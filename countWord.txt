@@ -1,0 +1,38 @@
+//declration variable
+let {a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z} = 0:
+
+// fetch blog to variable senteces
+let senteces = fetchFromWeb:
+
+// Remove space in variable senteces and make letter lower case
+senteces = senteces.split(' ','').tolowercase():
+
+// loop for match and sum the letter
+for counter=0 to senteces.length
+    if(senteces[counter] === 'a') a++;
+    if(senteces[counter] === 'b') b++;
+    if(senteces[counter] === 'c') c++;
+    if(senteces[counter] === 'd') d++;
+    if(senteces[counter] === 'e') e++;
+    if(senteces[counter] === 'f') f++;
+    if(senteces[counter] === 'g') g++;
+    if(senteces[counter] === 'h') h++;
+    if(senteces[counter] === 'i') i++;
+    if(senteces[counter] === 'j') j++;
+    if(senteces[counter] === 'k') k++;
+    if(senteces[counter] === 'l') l++;
+    if(senteces[counter] === 'n') n++;
+    if(senteces[counter] === 'o') o++;
+    if(senteces[counter] === 'p') p++;
+    if(senteces[counter] === 'q') q++;
+    if(senteces[counter] === 'r') r++;
+    if(senteces[counter] === 's') s++;
+    if(senteces[counter] === 't') t++;
+    if(senteces[counter] === 'u') u++;
+    if(senteces[counter] === 'v') v++;
+    if(senteces[counter] === 'w') w++;
+    if(senteces[counter] === 'x') x++;
+    if(senteces[counter] === 'y') y++;
+    if(senteces[counter] === 'z') z++;
+endfor
+
